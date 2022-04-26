@@ -73,3 +73,27 @@ body {
   top: 0px;
   left: 0px;
 }
+
+#board {
+  width: 600px;
+  height: 500px;
+  display: none;
+}
+
+#chess {
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+}
+
+#compass {
+  width: 100px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  background-color: beige;
+  border-radius: 50px;
+}

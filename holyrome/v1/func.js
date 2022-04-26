@@ -6,3 +6,5 @@ function waitForElement (id, callback) {
     }
   }, 100);
 }
+
+let isIntDisabled = false;
