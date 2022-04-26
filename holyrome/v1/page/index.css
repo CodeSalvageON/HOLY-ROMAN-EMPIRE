@@ -8,6 +8,28 @@ body {
   background-color: #ddca69FF;
 }
 
+.ab-center {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.scroll {
+  width: 130px;
+  height: 80px;
+  background-color: #fffddeFF;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
 #main-win {
   top: 0px;
   left: 0px;
@@ -19,5 +41,35 @@ body {
   border-radius: 5px;
   position: absolute;
   background-color: #f5e094FF;
-  transition: 5ms ease-in-out box-shadow;  
+  transition: 5s ease-in-out box-shadow;  
+}
+
+#loading {
+  font-size: 30px;
+}
+
+#menu {
+  width: 600px;
+  height: 500px;
+  border-radius: 5px;
+  display: none;
+  background-size: cover;
+}
+
+#menu-banner {
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+#menu-title {
+  font-size: 40px;
+}
+
+#menu-options {
+  z-index: 100;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
