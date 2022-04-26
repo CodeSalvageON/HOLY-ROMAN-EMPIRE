@@ -1,0 +1,23 @@
+@font-face {
+  font-family: EMPIRE;
+  src: url("/holyrome/v1/fonts/Holyv2c.ttf");
+}
+
+body {
+  font-family: EMPIRE;
+  background-color: #ddca69FF;
+}
+
+#main-win {
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #f5e094FF;
+  transition: 5ms ease-in-out box-shadow;  
+}
