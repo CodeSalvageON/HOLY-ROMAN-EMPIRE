@@ -1,0 +1,23 @@
+card1.onclick = function () {
+  cardSelectFunc("card1");
+}
+
+card2.onclick = function () {
+  cardSelectFunc("card2");
+}
+
+card3.onclick = function () {
+  cardSelectFunc("card3");
+}
+
+card4.onclick = function () {
+  cardSelectFunc("card4");
+}
+
+card5.onclick = function () {
+  cardSelectFunc("card5");
+}
+
+card6.onclick = function () {
+  cardSelectFunc("card6");
+}
