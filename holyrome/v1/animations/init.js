@@ -20,6 +20,8 @@ function fadeToIntro () {
 
     setTimeout(function () {
       isIntDisabled = false;
+
+      $("#intro1").fadeIn(4000);
     }, 4000);
   }, 4000);
 }
