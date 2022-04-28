@@ -21,7 +21,7 @@ function fadeToIntro () {
     setTimeout(function () {
       isIntDisabled = false;
 
-      $("#intro1").fadeIn(4000);
+      $("#intro1").fadeIn(2000);
     }, 4000);
   }, 4000);
 }

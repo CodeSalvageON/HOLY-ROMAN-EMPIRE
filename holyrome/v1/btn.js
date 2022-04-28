@@ -9,6 +9,12 @@ $(".scroll").click(function () {
   }
 });
 
+$(".cards-table-inline").click(function () {
+  if (isIntDisabled === true) {
+    return false;
+  }
+});
+
 newCrusade.onclick = function () {
   austriaAnthem.play();
   fadeToIntro();
@@ -104,7 +110,12 @@ let chooseErr = document.getElementById("choose-err");
 
 chooseCards.onclick = function () {
   if (card1Click === 1 && card2Click === 1 && card3Click === 1) {
-    
+    $("#intro1").fadeOut(2000);
+    isIntDisabled = true;
+
+    setTimeout(function () {
+      isIntDisabled = false;
+    }, 2000);
   }
 
   else {
