@@ -15,6 +15,18 @@ $(".cards-table-inline").click(function () {
   }
 });
 
+$("button").click(function () {
+  if (isIntDisabled === true) {
+    return false;
+  }
+});
+
+$(".interface").click(function () {
+  if (isIntDisabled === true) {
+    return false;
+  }
+});
+
 newCrusade.onclick = function () {
   austriaAnthem.play();
   fadeToIntro();
@@ -115,10 +127,44 @@ chooseCards.onclick = function () {
 
     setTimeout(function () {
       isIntDisabled = false;
+
+      if (card1Selec === "card2" || card2Selec === "card2" || card3Selec === "card2") {
+        currentDiplomacy -= 10;
+        currentEconomy -= 5;
+        currentStability += 15;
+
+        isGoingDown1 = true;
+        isGoingDown4 = true;
+      }
+
+      if (card1Selec === "card4" || card2Selec === "card4" || card3Selec === "card4") {
+        currentMilitary += 5;
+        isGoingDown3 = false;
+      }
+
+      if (card1Selec === "card5" || card2Selec === "card5" || card3Selec === "card5") {
+        currentEconomy += 5;
+        isGoingDown4 = false;
+      }
     }, 2000);
   }
 
   else {
     chooseErr.innerText = "Please choose three cards first.";
+  }
+}
+
+const compass = document.getElementById("compass");
+let isQuestMenu = false;
+
+compass.onclick = function () {
+  if (isQuestMenu === false) {
+    $("#quest-menu").slideDown(300);
+    isQuestMenu = true;
+  }
+
+  else {
+    $("#quest-menu").slideUp(300);
+    isQuestMenu = false;
   }
 }

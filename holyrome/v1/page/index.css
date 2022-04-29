@@ -12,6 +12,11 @@ p {
   margin: 0;
 }
 
+button {
+  margin: 0;
+  font-size: 15px;
+}
+
 .red {
   color: red;
 }
@@ -72,6 +77,15 @@ p {
   border: 2px solid brown;
   display: inline-block;
   background-color: beige;
+}
+
+.meta-options {
+  border: hidden;
+  border-radius: 5px;
+  font-family: EMPIRE;
+  color: black;
+  border: 0.5px solid black;
+  background-color: #ffffb9FF;
 }
 
 #main-win {
@@ -166,9 +180,22 @@ p {
 #stat {
   top: 0px;
   left: 0px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 200px;
   border-radius: 5px;
   background-color: beige;
+  position: absolute;
+}
+
+#meta-buttons {
+  font-size: 0px;
+}
+
+#quest-menu {
+  bottom: 60px;
+  width: 100px;
+  height: 200px;
+  background-color: beige;
+  display: none;
   position: absolute;
 }
