@@ -88,6 +88,10 @@ button {
   background-color: #ffffb9FF;
 }
 
+.rounded {
+  border-radius: 5px;
+}
+
 #main-win {
   top: 0px;
   left: 0px;
@@ -136,6 +140,18 @@ button {
   width: 600px;
   height: 500px;
   display: none;
+}
+
+#decks {
+  top: 0px;
+  left: 0px;
+  width: 600px;
+  height: 500px;
+  display: none;
+  overflow-y: auto;
+  position: relative;
+  background-size: cover;
+  background-image: url('/holyrome/v1/gui/worms.jpeg');
 }
 
 #chess {
@@ -198,4 +214,23 @@ button {
   background-color: beige;
   display: none;
   position: absolute;
+}
+
+#worms {
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  position: fixed;
+  width: 600px;
+  height: 500px;
+  display: none;
+}
+
+#card-decks {
+  top: 50px;
+  left: 5px;
+  display: table;
+  position: absolute;
+  overflow-y: auto;
+  height: 500px;
 }

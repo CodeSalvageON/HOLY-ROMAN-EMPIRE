@@ -155,9 +155,14 @@ chooseCards.onclick = function () {
 }
 
 const compass = document.getElementById("compass");
+const cards = document.getElementById("diet");
 let isQuestMenu = false;
 
 compass.onclick = function () {
+  if (isIntDisabled === true) {
+    return false;
+  }
+  
   if (isQuestMenu === false) {
     $("#quest-menu").slideDown(300);
     isQuestMenu = true;
@@ -167,4 +172,35 @@ compass.onclick = function () {
     $("#quest-menu").slideUp(300);
     isQuestMenu = false;
   }
+}
+
+diet.onclick = function () {
+  if (isIntDisabled === true) {
+    return false;
+  }
+          
+  $("#board").fadeOut(3000);
+  isIntDisabled = true;
+
+  setTimeout(function () {
+    $("#decks").fadeIn(3000);
+
+    setTimeout(function () {
+      isIntDisabled = false;
+    }, 3000);
+  }, 3000);
+}
+
+const backFromCards = document.getElementById("back-from-cards");
+backFromCards.onclick = function () {
+  $("#decks").fadeOut(3000);
+  isIntDisabled = true;
+
+  setTimeout(function () {
+    $("#board").fadeIn(3000);
+    
+    setTimeout(function () {
+      isIntDisabled = false;
+    }, 3000);
+  }, 3000);
 }
