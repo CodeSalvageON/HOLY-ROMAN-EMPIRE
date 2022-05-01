@@ -128,6 +128,10 @@ chooseCards.onclick = function () {
     setTimeout(function () {
       isIntDisabled = false;
 
+      if (card1Selec === "card1" || card2Selec === "card1" || card3Selec === "card1") {
+        
+      }
+
       if (card1Selec === "card2" || card2Selec === "card2" || card3Selec === "card2") {
         currentDiplomacy -= 10;
         currentEconomy -= 5;
