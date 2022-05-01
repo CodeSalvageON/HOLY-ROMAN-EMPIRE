@@ -5,6 +5,7 @@ A political enigma.
 All images are under Public Domain (in the United States, given that all of their artists died well over 100 years ago).
 ### Maps
 * The map of the Holy Roman Empire is considered public domain in the United States; its creator and artist being long dead.
+* The map of the German Empire is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927.
 
 ### Anthems
 * Land der Berge Land am Strome, the current national anthem of Austria is considered public domain in the United States (the composer died in 1818) and is also considered so due to the musical number used being a work of the federal government.
