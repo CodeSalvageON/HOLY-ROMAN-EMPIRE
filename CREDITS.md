@@ -10,6 +10,7 @@ All images are under Public Domain (in the United States, given that all of thei
 * Marcia trionfale (Hallmayer), also known as the early anthem of the Papal States, is considered public domain in the United States, its composer having died over 100 years ago.
 * Inno e Marcia Pontificale, the anthem of Vatican City, is considered public domain due to it being a work of the federal government, and its composer having died over 100 years ago. (1893.)
 * The Swiss Psalm, the anthem of the Swiss Confederation, is considered public domain due to it being a work of the federal government, and its composer having died over 100 years ago.
+* The national anthem of the Kingdom of Sardinia was created by or on behalf of either the government, the former national Fascist Party, an academy, or a non-profit organisation of Italy. It was published prior to 1976, and has no known US copyright registration associated with it. It is now in the public domain in Italy and the United States and possibly elsewhere because its copyright term has expired.
 
 ### Flags, banners, coats of arms
 * The flag of the Holy Roman Empire was created by "Gunnar.offel" under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a>.
