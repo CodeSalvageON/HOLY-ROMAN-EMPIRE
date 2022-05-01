@@ -129,7 +129,7 @@ chooseCards.onclick = function () {
       isIntDisabled = false;
 
       if (card1Selec === "card1" || card2Selec === "card1" || card3Selec === "card1") {
-        
+        $("#quest1").show();
       }
 
       if (card1Selec === "card2" || card2Selec === "card2" || card3Selec === "card2") {
@@ -149,6 +149,10 @@ chooseCards.onclick = function () {
       if (card1Selec === "card5" || card2Selec === "card5" || card3Selec === "card5") {
         currentEconomy += 5;
         isGoingDown4 = false;
+      }
+
+      if (card1Selec === "card6" || card2Selec === "card6" || card3Selec === "card6") {
+        $("#quest2").show();
       }
     }, 2000);
   }

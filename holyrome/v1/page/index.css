@@ -121,6 +121,10 @@ button {
   border: 0.5px solid black;
 }
 
+.quest:hover {
+  cursor: default;
+}
+
 #main-win {
   top: 0px;
   left: 0px;
