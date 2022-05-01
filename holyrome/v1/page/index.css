@@ -193,7 +193,7 @@ button {
   display: none;
 }
 
-#chess {
+#chess, #eagle {
   top: 0px;
   left: 0px;
   border-radius: 5px;
