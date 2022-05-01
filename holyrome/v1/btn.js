@@ -212,3 +212,26 @@ backFromCards.onclick = function () {
     }, 3000);
   }, 3000);
 }
+
+let currentQuest = "";
+
+$(".quest").click(function () {
+  if (isIntDisabled === true) {
+    return false;
+  }
+  
+  $("#board").fadeOut(3000);
+  isIntDisabled = true;
+
+  setTimeout(function () {
+    $("#quest-loader").fadeIn(3000);
+
+    setTimeout(function () {
+      isIntDisabled = false;
+    }, 3000);
+  }, 3000);
+});
+
+$("#quest1").click(function () {
+  currentQuest = 1;
+});

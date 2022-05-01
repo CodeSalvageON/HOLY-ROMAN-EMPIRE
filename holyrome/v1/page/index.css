@@ -187,6 +187,12 @@ button {
   background-image: url('/holyrome/v1/gui/worms.jpeg');
 }
 
+#quest-loader {
+  width: 600px;
+  height: 500px;
+  display: none;
+}
+
 #chess {
   top: 0px;
   left: 0px;
