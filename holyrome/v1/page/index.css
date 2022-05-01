@@ -47,6 +47,10 @@ button {
   font-size: 30px;
 }
 
+.scroll:hover {
+  cursor: default;
+}
+
 .modal {
   top: 0;
   left: 0;
