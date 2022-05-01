@@ -280,3 +280,8 @@ button {
   overflow-y: auto;
   overflow-x: hidden;
 }
+
+#pause-play {
+  background-color: #f3c258;
+  border-radius: 5px;
+}

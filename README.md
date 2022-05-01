@@ -6,7 +6,8 @@ All images are under Public Domain (in the United States, given that all of thei
 ### Maps
 * The map of the Holy Roman Empire is considered public domain in the United States; its creator and artist being long dead.
 * The map of the German Empire is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927.
-
+* The map of Constantinople is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer.
+  
 ### Anthems
 * Land der Berge Land am Strome, the current national anthem of Austria is considered public domain in the United States (the composer died in 1818) and is also considered so due to the musical number used being a work of the federal government.
 * Marcia trionfale (Hallmayer), also known as the early anthem of the Papal States, is considered public domain in the United States, its composer having died over 100 years ago.
