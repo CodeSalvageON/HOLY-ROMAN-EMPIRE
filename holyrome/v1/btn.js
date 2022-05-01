@@ -235,3 +235,18 @@ $(".quest").click(function () {
 $("#quest1").click(function () {
   currentQuest = 1;
 });
+
+let isPaused = true;
+let pausePlay = document.getElementById("pause-play");
+
+pausePlay.onclick = function () {
+  if (isPaused === true) {
+    isPaused = false;
+    pausePlay.innerText = "⏵︎ In-Play";
+  }
+
+  else {
+    isPaused = true;
+    pausePlay.innerText = "⏸︎ Puzzle Paused";
+  }
+}

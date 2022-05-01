@@ -33,6 +33,7 @@ p {
 button {
   margin: 0;
   font-size: 15px;
+  font-family: EMPIRE;
 }
 
 .red {
@@ -282,6 +283,11 @@ button {
 }
 
 #pause-play {
+  width: 120px;
   background-color: #f3c258;
   border-radius: 5px;
+}
+
+#pause-play:hover {
+  cursor: default;
 }
