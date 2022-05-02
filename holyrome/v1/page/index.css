@@ -126,6 +126,10 @@ button {
   cursor: default;
 }
 
+.important {
+  font-size: 30px;
+}
+
 #main-win {
   top: 0px;
   left: 0px;

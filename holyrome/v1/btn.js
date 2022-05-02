@@ -3,6 +3,12 @@ const contCrusade = document.getElementById("cont");
 
 const cardsTable = document.getElementsByClassName("cards-table-inline");
 
+function disableIntAll () {
+  if (isIntDisabled === true) {
+    return false;
+  }
+}
+
 $(".scroll").click(function () {
   if (isIntDisabled === true) {
     return false;
@@ -240,9 +246,12 @@ let isPaused = true;
 let pausePlay = document.getElementById("pause-play");
 
 pausePlay.onclick = function () {
+  disableIntAll();
+  
   if (isPaused === true) {
     isPaused = false;
     pausePlay.innerText = "⏵︎ In-Play";
+    $("#mein-years").show();
   }
 
   else {
