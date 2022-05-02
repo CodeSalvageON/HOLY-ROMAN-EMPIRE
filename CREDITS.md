@@ -13,6 +13,7 @@ All images are under Public Domain (in the United States, given that all of thei
 * The national anthem of the Kingdom of Sardinia was created by or on behalf of either the government, the former national Fascist Party, an academy, or a non-profit organisation of Italy. It was published prior to 1976, and has no known US copyright registration associated with it. It is now in the public domain in Italy and the United States and possibly elsewhere because its copyright term has expired.
 * Heil Dir Im Siegerkranz, the anthem of the German Empire, is public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 70 years or fewer.
 * Het Wilhelmus, the Dutch anthem, is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927, and also due to it being a work of the federal government.
+* Poland is Not Yet Lost, the Polish anthem, is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927, and also due to it being a work of the federal government.
 
 ### Flags, banners, coats of arms
 * The flag of the Holy Roman Empire was created by "Gunnar.offel" under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a>.
