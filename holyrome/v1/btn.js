@@ -245,13 +245,32 @@ $("#quest1").click(function () {
 let isPaused = true;
 let pausePlay = document.getElementById("pause-play");
 
+const issue = document.getElementById("issue");
+const reichStag = document.getElementById("reichstag");
+const dec1 = document.getElementById("dec1");
+const dec2 = document.getElementById("dec2");
+const dec3 = document.getElementById("dec3");
+
+let decArray = ["A fairly large number of Greeks have immigrated to our Empire's lands since the Ottoman Empire opened it's borders.", "Several territorial princes have become corrupt and unruly. Something must be done about this!", "We should probably build more institutions in order to keep stability.", "Who should foreigners talk to when addressing the Empire?", "Should we have a permanent Army of the Holy Roman Empire?", "We should reconquer some of the territories that have seceded.", "Should we encourage our member states to have colonies?", "Many of our subjects do not know about the great Empire they belong to. This is disappointing.", "Many of the waterways and streets are unclean and filthy. Disease is rampant!", "We should have festivals and games for the general populace."];
+let dec2Array = ["Let them all in!|Keep it under control.|Keep them out!", "Nothing can be done.|Threaten them.|Pay them off.", "Good idea.|Financial institutions?|No.", "The Austrians.|The Prussians.|The Imperial Diet.", "Absolutely!|Not at all.|Most of the time...", "Deus vult!|Ask nicely.|We have enough to deal with.", "Yes.|No.|More embassies instead.", "Encourage education.|Why should I care?|Fly the Imperial Standard!", "Create a health institution.|Nothing can be done.|Threaten the Cities.", "Yes.|No.|Discourage festivals."];
+let dec3Array = ["/holyrome/v1/gui/city.jpeg", "/holyrome/v1/gui/perp.jpeg"];
+
+function makeDec () {
+  let randDec = Math.floor(Math.random() * 60);
+}
+
 pausePlay.onclick = function () {
   disableIntAll();
+
+  if (isIntDisabled === true) {
+    return false;
+  }
   
   if (isPaused === true) {
     isPaused = false;
     pausePlay.innerText = "⏵︎ In-Play";
     $("#mein-years").show();
+    makeDec();
   }
 
   else {

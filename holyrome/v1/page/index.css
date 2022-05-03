@@ -96,6 +96,8 @@ button {
 
 .cards-table-inline {
   width: 150px;
+  height: 210px;
+  overflow-y: auto;
   border-radius: 5px;
   border: 2px solid brown;
   display: inline-block;
@@ -271,7 +273,7 @@ button {
 }
 
 #card-decks {
-  top: 50px;
+  top: 80px;
   left: 5px;
   display: table;
   position: absolute;
@@ -293,5 +295,24 @@ button {
 }
 
 #pause-play:hover {
+  cursor: default;
+}
+
+#reichs-table {
+  display: table;
+}
+
+#dec1, #dec2, #dec3 {
+  font-size: 18px;
+  background-color: #ffffaf;
+  border-radius: 5px;
+  width: 120px;
+  height: 150px;
+  overflow-y: auto;
+  display: inline-block;
+  border: 0.5px solid black;
+}
+
+#dec1:hover, #dec2:hover, #dec3:hover {
   cursor: default;
 }

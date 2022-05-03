@@ -1,5 +1,5 @@
 ## Credits
-All images are under Public Domain (in the United States, given that all of their artists died well over 100 years ago).
+All images are under Public Domain (in the United States, given that all of their artists died well over 100 years ago), and are from Wikimedia Commons.
 ### Maps
 * The map of the Holy Roman Empire is considered public domain in the United States; its creator and artist being long dead.
 * The map of the German Empire is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927.
@@ -15,6 +15,7 @@ All images are under Public Domain (in the United States, given that all of thei
 * Het Wilhelmus, the Dutch anthem, is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927, and also due to it (the musical number used in Holy Rome) being a work of the federal government.
 * Poland is Not Yet Lost, the Polish anthem, is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927, and also due to it (the musical number used in Holy Rome) being a work of the federal government.
 * La Marseillaise, the French anthem, composed by Claude Joseph Rouget de Lisle, is in the public domain due to it (the musical number used in Holy Rome) being a work of the federal government.
+* The image of the Free Imperial City of Regensburg is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer.
 
 ### Flags, banners, coats of arms
 * The flag of the Holy Roman Empire was created by "Gunnar.offel" under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a>.

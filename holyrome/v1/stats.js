@@ -2,6 +2,7 @@ let currentDiplomacy = 60;
 let currentEconomy = 40;
 let currentMilitary = 20;
 let currentStability = 20;
+let currentYear = 1700;
 
 const diplomacyStat = document.getElementById("stat1");
 const stabilityStat = document.getElementById("stat2");
