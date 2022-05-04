@@ -24,6 +24,9 @@ All images are under Public Domain (in the United States, given that all of thei
 * The flag of the Romulan Empire was created by "CellarDoor85" under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a>.
 * The flag of the Byzantine Empire was created by "Cplakidas" under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a>.
 
+### Backgrounds 
+* The Battle of Austerlitz, 2nd December 1805 is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927.
+
 ### Libraries used
 * JQuery
 * 98.css

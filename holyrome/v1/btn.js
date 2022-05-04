@@ -278,3 +278,16 @@ pausePlay.onclick = function () {
     pausePlay.innerText = "⏸︎ Puzzle Paused";
   }
 }
+
+const diplomacy = document.getElementById("diplomacy");
+const returnFromDiplomacy = document.getElementById("return-from-diplomacy");
+
+diplomacy.onclick = function () {
+  $("#decks").hide();
+  $("#diplomacy-cards").show();
+}
+
+returnFromDiplomacy.onclick = function () {
+  $("#diplomacy-cards").hide();
+  $("#decks").show();
+}

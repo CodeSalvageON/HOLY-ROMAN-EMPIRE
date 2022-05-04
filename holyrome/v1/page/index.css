@@ -188,10 +188,24 @@ button {
   width: 600px;
   height: 500px;
   display: none;
+  border-radius: 5px;
   overflow-y: auto;
   position: relative;
   background-size: cover;
   background-image: url('/holyrome/v1/gui/worms.jpeg');
+}
+
+#diplomacy-cards {
+  top: 0px;
+  left: 0px;
+  width: 600px;
+  height: 500px;
+  display: none;
+  border-radius: 5px;
+  overflow-y: auto;
+  position: relative;
+  background-size: cover;
+  background-image: url('/holyrome/v1/gui/battle.jpeg');
 }
 
 #quest-loader {
