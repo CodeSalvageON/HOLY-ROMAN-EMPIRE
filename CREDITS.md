@@ -26,6 +26,12 @@ All images are under Public Domain (in the United States, given that all of thei
 
 ### Backgrounds 
 * The Battle of Austerlitz, 2nd December 1805 is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927.
+* The image of Hungary is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer (United States).
+
+### Card Artwork
+* Sultan Mehmed the Conqueror's entry into Constantinople; painting by Fausto Zonaro (1854–1929) is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927.
+* Official portrait of Captain James Cook by Nathaniel Dance-Holland is in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1927.
+* Portrait of Peter I of Russia (1672-1725) is in the public domain in countries and areas where the copyright term is the author's life plus 100 years or fewer (United States).
 
 ### Libraries used
 * JQuery
