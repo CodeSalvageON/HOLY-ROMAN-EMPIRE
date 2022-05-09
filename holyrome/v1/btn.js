@@ -272,8 +272,115 @@ function makeDec () {
   dec1.innerText = dec2Eins;
   dec2.innerText = dec2Zwei;
   dec3.innerText = dec2Drei;
+}
 
-  reichStag.src = randImg;
+dec1.onclick = function () {
+  $("#mein-years").hide();
+  isPaused = true;
+  pausePlay.innerText = "⏸︎ Puzzle Paused";
+  
+  if (issue.innerText === decArray[0]) {
+    currentStability -= 10;
+    isGoingDown2 = true;
+    currentDiplomacy += 5;
+    isGoingDown1 = false;
+    currentEconomy += 5;
+    isGoingDown4 = false;
+  }
+
+  else if (issue.innerText === decArray[1]) {
+    currentStability -= 5;
+    isGoingDown2 = true;
+  }
+
+  else if (issue.innerText === decArray[2]) {
+    currentEconomy -= 5;
+    isGoingDown4 = true;
+    currentStability += 5;
+    isGoingDown2 = false;
+  }
+
+  else if (issue.innerText === decArray[3]) {
+    currentDiplomacy += 5;
+    isGoingDown1 = false;
+  }
+
+  else if (issue.innerText === decArray[4]) {
+    currentMilitary += 5;
+    isGoingDown3 = false;
+    currentEconomy -= 1;
+    isGoingDown4 = true;
+  }
+
+  else if (issue.innerText === decArray[5]) {
+    currentDiplomacy -= 2;
+    isGoingDown1 = true;
+    currentMilitary += 5;
+    isGoingDown3 = false;
+  }
+
+  else if (issue.innerText === decArray[6]) {
+    currentStability += 5;
+    isGoingDown2 = false;
+    currentMilitary += 5;
+    isGoingDown3 = false;
+    currentEconomy += 5;
+    isGoingDown4 = false;
+  }
+
+  else if (issue.innerText === decArray[7]) {
+    currentEconomy += 5;
+    isGoingDown4 = false;
+  }
+
+  else if (issue.innerText === decArray[8]) {
+    currentEconomy -= 2;
+    isGoingDown4 = true;
+    currentStability += 3;
+    isGoingDown2 = false;
+  }
+
+  else if (issue.innerText === decArray[9]) {
+    currentEconomy -= 4;
+    isGoingDown4 = true;
+    currentDiplomacy += 8;
+    isGoingDown1 = false;
+  }
+
+  else if (issue.innerText === decArray[10]) {
+    currentDiplomacy -= 10;
+    isGoingDown1 = true;
+    currentEconomy += 15;
+    isGoingDown4 = false;
+  }
+
+  else if (issue.innerText === decArray[11]) {
+    currentStability += 5;
+    isGoingDown2 = false;
+  }
+
+  else if (issue.innerText === decArray[12]) {
+    currentDiplomacy += 2;
+    isGoingDown1 = false;
+    currentEconomy += 10;
+    isGoingDown4 = false;
+  }
+
+  else if (issue.innerText === decArray[13]) {
+    // Do nothing here
+  }
+
+  else if (issue.innerText === decArray[14]) {
+    currentEconomy -= 3;
+    isGoingDown4 = true;
+    currentStability += 4;
+    isGoingDown2 = false;
+  }
+
+  else {
+    currentDiplomacy += 1;
+    isGoingDown1 = false;
+  }
 }
 
 pausePlay.onclick = function () {
