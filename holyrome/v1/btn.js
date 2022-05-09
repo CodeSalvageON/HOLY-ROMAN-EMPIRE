@@ -253,12 +253,27 @@ const dec1 = document.getElementById("dec1");
 const dec2 = document.getElementById("dec2");
 const dec3 = document.getElementById("dec3");
 
-let decArray = ["A fairly large number of Greeks have immigrated to our lands since the Ottoman Empire opened it's borders.", "Several territorial princes have become corrupt and unruly. Something must be done about this!", "We should probably build more institutions in order to keep stability.", "Who should foreigners talk to when addressing the entire nation?", "Should we have a permanent Army?", "We should reconquer some of the territories that have seceded.", "Should we encourage our member states to have colonies?", "Many of our subjects do not know about the great nation they belong to. This is disappointing.", "Many of the waterways and streets are unclean and filthy. Disease is rampant!", "We should have festivals and games for the general populace.", "Some merchants have begun to participate in the slave trade. This brings a dilemma to our borders.", "Many of the buildings that the Empire's institutions are known for being dirty and dusty. Hiring cleaners would probably help to clean up our systems.", "Increasing trade with the neighboring countries would be extremely helpful to our economy.", "It "];
-let dec2Array = ["Let them all in!|Keep it under control.|Keep them out!", "Nothing can be done.|Threaten them.|Pay them off.", "Good idea.|Financial institutions?|No.", "The Austrians.|The Prussians.|The Imperial Diet.", "Absolutely!|Not at all.|Most of the time...", "Deus vult!|Ask nicely.|We have enough to deal with.", "Yes.|No.|More embassies instead.", "Encourage education.|Why should I care?|Fly the Imperial Standard!", "Create a health institution.|Nothing can be done.|Threaten the Cities.", "Yes.|No.|Discourage festivals.", "Join the trade.|Ban the trade.|Ignore.", "Absolutely.|Ignore.|Clean everything!", "Sure.|What about our own?|No."];
+let decArray = ["A fairly large number of Greeks have immigrated to our lands since the Ottoman Empire opened it's borders.", "Several territorial princes have become corrupt and unruly. Something must be done about this!", "We should probably build more institutions in order to keep stability.", "Who should foreigners talk to when addressing the entire nation?", "Should we have a permanent Army?", "We should reconquer some of the territories that have seceded.", "Should we encourage our member states to have colonies?", "Many of our subjects do not know about the great nation they belong to. This is disappointing.", "Many of the waterways and streets are unclean and filthy. Disease is rampant!", "We should have festivals and games for the general populace.", "Some merchants have begun to participate in the slave trade. This brings a dilemma to our borders.", "Many of the buildings that the Empire's institutions are known for being dirty and dusty. Hiring cleaners would probably help to clean up our systems.", "Increasing trade with the neighboring countries would be extremely helpful to our economy.", "It would be a good idea to distribute medical leeches to everyone.", "We should build a museum for the populace to learn from."];
+let dec2Array = ["Let them all in!|Keep it under control.|Keep them out!", "Nothing can be done.|Threaten them.|Pay them off.", "Good idea.|Financial institutions?|No.", "The Austrians.|The Prussians.|The Imperial Diet.", "Absolutely!|Not at all.|Most of the time...", "Deus vult!|Ask nicely.|We have enough to deal with.", "Yes.|No.|More embassies instead.", "Encourage education.|Why should I care?|Fly the Imperial Standard!", "Create a health institution.|Nothing can be done.|Threaten the Cities.", "Yes.|No.|Discourage festivals.", "Join the trade.|Ban the trade.|Ignore.", "Absolutely.|Ignore.|Clean everything!", "Sure.|What about our own?|No.", "No!|NO!|Yes.", "Sure.|Too expensive.|Cut some costs."];
 let dec3Array = ["/holyrome/v1/gui/city.jpeg", "/holyrome/v1/gui/perp.jpeg"];
 
 function makeDec () {
-  let randDec = Math.floor(Math.random() * 60);
+  let randDec = Math.floor(Math.random() * decArray.length);
+  let randImg = Math.floor(Math.random() * dec3Array.length);
+
+  let dec2Dec = dec2Array[randDec];
+  let dec2Dec1 = dec2Dec.split("|");
+
+  let dec2Eins = dec2Dec1[0];
+  let dec2Zwei = dec2Dec1[1];
+  let dec2Drei = dec2Dec1[2];
+
+  issue.innerText = decArray[randDec];
+  dec1.innerText = dec2Eins;
+  dec2.innerText = dec2Zwei;
+  dec3.innerText = dec2Drei;
+
+  reichStag.src = randImg;
 }
 
 pausePlay.onclick = function () {
