@@ -36,4 +36,5 @@ All images are under Public Domain (in the United States, given that all of thei
 
 ### Libraries used
 * JQuery
+* JQuery UI
 * 98.css
