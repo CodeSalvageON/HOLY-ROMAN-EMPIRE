@@ -383,6 +383,96 @@ dec1.onclick = function () {
   }
 }
 
+dec2.onclick = function () {
+  $("#mein-years").hide();
+  isPaused = true;
+  pausePlay.innerText = "⏸︎ Puzzle Paused";
+
+  if (issue.innerText === decArray[0]) {
+    currentEconomy += 5;
+    isGoingDown4 = false;
+    currentStability += 5;
+    isGoingDown2 = false;
+  }
+
+  else if (issue.innerText === decArray[1]) {
+    currentStability += 5;
+    isGoingDown2 = false;
+  }
+
+  else if (issue.innerText === decArray[2]) {
+    currentEconomy += 5;
+    isGoingDown4 = true;
+  }
+
+  else if (issue.innerText === decArray[3]) {
+    currentMilitary += 10;
+    isGoingDown3 = false;
+    currentEconomy -= 20;
+    isGoingDown4 = true;
+  }
+
+  else if (issue.innerText === decArray[4]) {
+    currentMilitary -= 20;
+    isGoingDown3 = true;
+  }
+
+  else if (issue.innerText === decArray[5]) {
+    currentDiplomacy += 1;
+    isGoingDown1 = false;
+  }
+
+  else if (issue.innerText === decArray[6]) {
+    currentDiplomacy += 1;
+    isGoingDown1 = false;
+  }
+
+  else if (issue.innerText === decArray[7]) {
+    currentEconomy -= 50;
+    isGoingDown3 = true;
+  }
+
+  else if (issue.innerText === decArray[8]) {
+    currentMilitary -= 10;
+    isGoingDown3 = true;
+    currentEconomy -= 10;
+    isGoingDown4 = true;
+  }
+
+  else if (issue.innerText === decArray[9]) {
+    currentDiplomacy -= 20;
+    isGoingDown1 = true;
+  }
+
+  else if (issue.innerText === decArray[10]) {
+    currentEconomy -= 10;
+    isGoingDown4 = true;
+    currentDiplomacy += 10;
+    isGoingDown1 = false;
+  }
+
+  else if (issue.innerText === decArray[11]) {
+    currentStability -= 5;
+    isGoingDown2 = true;
+  }
+
+  else if (issue.innerText === decArray[12]) {
+    currentEconomy += 10;
+    isGoingDown4 = false;
+    currentDiplomacy -= 15;
+    isGoingDown1 = true;
+  }
+
+  else if (issue.innerText === decArray[13]) {
+    // Do nothing here
+  }
+
+  else if (issue.innerText === decArray[14]) {
+    currentStability -= 5;
+    isGoingDown2 = true;
+  }
+}
+
 pausePlay.onclick = function () {
   disableIntAll();
 
