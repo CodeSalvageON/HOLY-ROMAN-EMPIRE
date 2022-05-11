@@ -277,6 +277,8 @@ function makeDec () {
 dec1.onclick = function () {
   $("#mein-years").hide();
   isPaused = true;
+  currentYear += 1;
+  yearStat.innerText = currentYear + " A.D.";
   pausePlay.innerText = "⏸︎ Puzzle Paused";
   
   if (issue.innerText === decArray[0]) {
@@ -386,6 +388,8 @@ dec1.onclick = function () {
 dec2.onclick = function () {
   $("#mein-years").hide();
   isPaused = true;
+  currentYear += 1;
+  yearStat.innerText = currentYear + " A.D.";
   pausePlay.innerText = "⏸︎ Puzzle Paused";
 
   if (issue.innerText === decArray[0]) {
@@ -475,6 +479,8 @@ dec2.onclick = function () {
 
 dec3.onclick = function () {
   $("#mein-years").hide();
+  currentYear += 1;
+  yearStat.innerText = currentYear + " A.D.";
   isPaused = true;
   pausePlay.innerText = "⏸︎ Puzzle Paused";
 

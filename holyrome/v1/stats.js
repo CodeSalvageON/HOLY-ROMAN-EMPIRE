@@ -8,6 +8,7 @@ const diplomacyStat = document.getElementById("stat1");
 const stabilityStat = document.getElementById("stat2");
 const militaryStat = document.getElementById("stat3");
 const economyStat = document.getElementById("stat4");
+const yearStat = document.getElementById("year");
 
 let isGoingDown1 = false;
 let isGoingDown2 = false;
