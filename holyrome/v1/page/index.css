@@ -335,3 +335,15 @@ button {
 #dec1:hover, #dec2:hover, #dec3:hover {
   cursor: default;
 }
+
+#side-economy {
+  top: 0px;
+  left: 0px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  display: none;
+  border-style: outset;
+  border-width: 10px;
+  background-color: grey;
+}

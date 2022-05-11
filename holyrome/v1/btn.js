@@ -610,3 +610,9 @@ returnFromDiplomacy.onclick = function () {
   $("#diplomacy-cards").hide();
   $("#decks").show();
 }
+
+const economy = document.getElementById("economy");
+
+economy.onclick = function () {
+  $("#side-economy").toggle("slide", 200);
+}
