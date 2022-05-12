@@ -149,6 +149,11 @@ chooseCards.onclick = function () {
         isGoingDown4 = true;
       }
 
+       if (card1Selec === "card3" || card2Selec === "card3" || card3Selec === "card3") {
+        diplomacySpain = "allied";
+        spanishRep.innerText = "Allied";
+      }
+
       if (card1Selec === "card4" || card2Selec === "card4" || card3Selec === "card4") {
         currentMilitary += 5;
         isGoingDown3 = false;
@@ -612,7 +617,12 @@ returnFromDiplomacy.onclick = function () {
 }
 
 const economy = document.getElementById("economy");
+const returnFromEconomy = document.getElementById("collapse-economy");
 
 economy.onclick = function () {
+  $("#side-economy").toggle("slide", 200);
+}
+
+returnFromEconomy.onclick = function () {
   $("#side-economy").toggle("slide", 200);
 }

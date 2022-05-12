@@ -15,6 +15,11 @@ let isGoingDown2 = false;
 let isGoingDown3 = false;
 let isGoingDown4 = false;
 
+let diplomacyOttoman = "neutral";
+let diplomacyBritish = "neutral";
+let diplomacyRussian = "neutral";
+let diplomacySpain = "neutral";
+
 function updateStat () {
   if (isGoingDown1 === false) {
     diplomacyStat.innerHTML = "Diplomacy: <i class='green'>" + currentDiplomacy + " ▲</i>"; 
