@@ -20,6 +20,11 @@ let diplomacyBritish = "neutral";
 let diplomacyRussian = "neutral";
 let diplomacySpain = "neutral";
 
+let ottomanRep = document.getElementById("ottoman-rep");
+let britishRep = document.getElementById("british-rep");
+let russianRep = document.getElementById("russian-rep");
+let spanishRep = document.getElementById("spanish-rep");
+
 function updateStat () {
   if (isGoingDown1 === false) {
     diplomacyStat.innerHTML = "Diplomacy: <i class='green'>" + currentDiplomacy + " ▲</i>"; 
